@@ -1,5 +1,7 @@
-package com.example.readjsonfilefromweb;
+package com.example.readjsonfilefromweb.views;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -9,10 +11,10 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.readjsonfilefromweb.R;
 import com.example.readjsonfilefromweb.apis.ApiService;
 import com.example.readjsonfilefromweb.models.Fruit;
 import com.example.readjsonfilefromweb.models.User;
-import com.google.gson.Gson;
 
 import java.util.List;
 
@@ -21,10 +23,9 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
-    User user;
 
     TextView txtname,txtcity,txtcountry;
-    Button btnSingle,btnList;
+    Button btnSingle,btnList,btnLink1,btnLink2;;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
         txtcountry = findViewById(R.id.txtCountry);
         btnSingle = findViewById(R.id.btnCallApiSingle);
         btnList = findViewById(R.id.btnCallApiList);
+        btnLink1 = findViewById(R.id.btnRS1);
+        btnLink2 = findViewById(R.id.btnRS2);
 
 
 //        user = new User("Huy","Thai Binh","Viet Nam");
@@ -52,7 +55,27 @@ public class MainActivity extends AppCompatActivity {
         btnList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                callApiList();
+                startActivity(new Intent(MainActivity.this, ObjectListActivity.class));
+            }
+        });
+
+        btnLink1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://filesamples.com/samples/code/json/sample1.json"));
+                startActivity(intent);
+            }
+        });
+
+        btnLink2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://jsonplaceholder.typicode.com/users"));
+                startActivity(intent);
             }
         });
 
@@ -76,41 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    public void callApiList(){
-        ApiService.apiServiceList.convertObjectList().enqueue(new Callback<List<User>>() {
-            @Override
-            public void onResponse(Call<List<User>> call, Response<List<User>> response) {
-                Toast.makeText(MainActivity.this, "ok", Toast.LENGTH_SHORT).show();
 
-                List<User> users = response.body();
-                for (User user:users){
-                    Log.i("APIIIIIIIIIII",
-                            user.getId()+" "+
-                            user.getName()+" "+
-                            user.getUsername()+" "+
-                            user.getEmail()+" "+
-                            user.getAddress().getStreet()+" "+
-                            user.getAddress().getSuite()+" "+
-                            user.getAddress().getCity()+" "+
-                            user.getAddress().getZipcode()+" "+
-                            user.getAddress().getGeo().getLat()+" "+
-                            user.getAddress().getGeo().getLng()+" "+
-                            user.getPhone()+" "+
-                            user.getWebsite()+" "+
-                            user.getCompany().getName()+" "+
-                            user.getCompany().getCatchPhrase()+" "+
-                            user.getCompany().getBs()
-                            );
-                }
-            }
-
-            @Override
-            public void onFailure(Call<List<User>> call, Throwable t) {
-                Toast.makeText(MainActivity.this, "!ok", Toast.LENGTH_SHORT).show();
-            }
-        });
-
-    }
 
 
 }
