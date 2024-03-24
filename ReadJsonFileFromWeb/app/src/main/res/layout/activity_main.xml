@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.MainActivity">
+    tools:context=".MainActivity">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -30,55 +30,34 @@
         />
 
     <TextView
-        android:id="@+id/txtCountry"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/txtCountry"
         android:text="txt"
-        android:textColor="#ff0011"
         android:textSize="34dp"
         android:textStyle="italic"
+        android:textColor="#ff0011"
+        app:layout_constraintTop_toBottomOf="@id/txtCity"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txtCity" />
+        />
 
     <Button
-        android:id="@+id/btnCallApiSingle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="52dp"
         android:text="Call Api Object Single"
+        android:id="@+id/btnCallApiSingle"
+        app:layout_constraintTop_toBottomOf="@id/txtCountry"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txtCountry" />
-
+        />
     <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Api Object Single"
         android:id="@+id/btnCallApiList"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="48dp"
-        android:text="Call Api Object List"
+        app:layout_constraintTop_toBottomOf="@id/btnCallApiSingle"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCallApiSingle" />
+        />
 
-    <Button
-        android:id="@+id/btnRS2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="56dp"
-        android:text="Data Sourse"
-        app:layout_constraintStart_toEndOf="@+id/btnCallApiList"
-        app:layout_constraintTop_toBottomOf="@+id/btnRS1" />
-
-    <Button
-        android:id="@+id/btnRS1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="52dp"
-        android:text="Data Sourse"
-        app:layout_constraintStart_toEndOf="@+id/btnCallApiSingle"
-        app:layout_constraintTop_toBottomOf="@+id/txtCountry" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
