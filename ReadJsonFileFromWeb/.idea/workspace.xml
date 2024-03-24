@@ -10,6 +10,16 @@
           <theme>@style/Theme.ReadJsonFileFromWeb</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_object_list.xml">
+        <config>
+          <theme>@style/Theme.ReadJsonFileFromWeb</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/user_item.xml">
+        <config>
+          <theme>@style/Theme.ReadJsonFileFromWeb</theme>
+        </config>
+      </layout>
     </layouts>
   </component>
   <component name="AutoImportSettings">
@@ -17,6 +27,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24494965-7131-4151-bcb1-2e9181639aa2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/readjsonfilefromweb/models/Template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/readjsonfilefromweb/views/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/readjsonfilefromweb/views/ObjectListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_object_list.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../63CNTT4_GK_2151062783_NguyenQuangHuy/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../63CNTT4_GK_2151062783_NguyenQuangHuy/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../63CNTT4_GK_2151062783_NguyenQuangHuy/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../63CNTT4_GK_2151062783_NguyenQuangHuy/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../63CNTT4_GK_2151062783_NguyenQuangHuy/app/src/main/java/com/example/a63cntt4_gk_2151062783_nguyenquanghuy/CourseAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../63CNTT4_GK_2151062783_NguyenQuangHuy/app/src/main/java/com/example/a63cntt4_gk_2151062783_nguyenquanghuy/ItemAdapter.java" afterDir="false" />
@@ -74,7 +88,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/readjsonfilefromweb/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/readjsonfilefromweb/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/readjsonfilefromweb/MainActivity.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test/.idea/.gitignore" beforeDir="false" />
@@ -184,10 +198,50 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Read Json File From Web" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Read Json File From Web" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Read Json File From Web" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Read Json File From Web" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="layoutResourceFile" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -213,9 +267,14 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Learning_Android_With_Java/Apps/SqliteWithImage"
+    "last_opened_file_path": "E:/LearnAndroidApp/ReadJsonFileFromWeb"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="android.template.1385525557">
+      <recent name="com.example.readjsonfilefromweb.views" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="Read_Json_File_From_Web.app.main" />
@@ -295,5 +354,23 @@
       <updated>1710947844532</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="AndroidRunConfigurationType">
+        <watch expression="listView" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

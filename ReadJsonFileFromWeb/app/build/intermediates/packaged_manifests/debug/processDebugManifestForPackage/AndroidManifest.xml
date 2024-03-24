@@ -30,7 +30,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.ReadJsonFileFromWeb" >
         <activity
-            android:name="com.example.readjsonfilefromweb.MainActivity"
+            android:name="com.example.readjsonfilefromweb.views.ObjectListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.readjsonfilefromweb.views.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
