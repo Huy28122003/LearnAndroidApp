@@ -1,9 +1,8 @@
-package com.example.readjsonfilefromweb.views;
+package com.example.readjsonfilefromweb.process;
 
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -14,9 +13,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.readjsonfilefromweb.R;
 import com.example.readjsonfilefromweb.apis.ApiService;
 import com.example.readjsonfilefromweb.models.Fruit;
-import com.example.readjsonfilefromweb.models.User;
-
-import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;

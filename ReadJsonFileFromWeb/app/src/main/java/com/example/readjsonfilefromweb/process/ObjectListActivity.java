@@ -1,15 +1,10 @@
-package com.example.readjsonfilefromweb.views;
+package com.example.readjsonfilefromweb.process;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import com.example.readjsonfilefromweb.R;
 import com.example.readjsonfilefromweb.apis.ApiService;
