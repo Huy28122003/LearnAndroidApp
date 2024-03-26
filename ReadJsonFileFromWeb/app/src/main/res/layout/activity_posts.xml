@@ -16,17 +16,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/userId"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:ems="10"
-            android:hint="userId"
-            android:inputType="number"
-            android:textSize="20dp" />
-
-        <EditText
-            android:id="@+id/id"
+            android:id="@+id/animalId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -36,22 +26,41 @@
             android:textSize="20dp" />
 
         <EditText
-            android:id="@+id/usertitle"
+            android:id="@+id/animalName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:ems="10"
-            android:hint="title"
+            android:hint="name"
+            android:inputType="number"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/animalLong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="longevity"
             android:inputType="text"
             android:textSize="20dp" />
 
         <EditText
-            android:id="@+id/body"
+            android:id="@+id/env"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:ems="10"
-            android:hint="body"
+            android:hint="environment"
+            android:inputType="text"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/ate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="ate"
             android:inputType="text"
             android:textSize="20dp" />
 

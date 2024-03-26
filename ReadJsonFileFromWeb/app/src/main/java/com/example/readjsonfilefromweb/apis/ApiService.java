@@ -1,7 +1,7 @@
 package com.example.readjsonfilefromweb.apis;
 
+import com.example.readjsonfilefromweb.models.Animal;
 import com.example.readjsonfilefromweb.models.Fruit;
-import com.example.readjsonfilefromweb.models.Opinion;
 import com.example.readjsonfilefromweb.models.User;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -14,13 +14,13 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.http.Body;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
-import retrofit2.http.Query;
 
 public interface ApiService {
 
     Gson gson = new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create();
     // url: https://www.w3schools.com/js/customers_mysql.php
     // https://filesamples.com/samples/code/json/sample1.json
+    // http://localhost/AndroidWebService/
     ApiService apiService = new Retrofit.Builder()
             .baseUrl("https://filesamples.com")
             .addConverterFactory(GsonConverterFactory.create())
@@ -41,10 +41,10 @@ public interface ApiService {
 
 
     ApiService apiPost = new Retrofit.Builder()
-            .baseUrl("https://jsonplaceholder.typicode.com/")
+            .baseUrl("http://172.20.10.5/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create((ApiService.class));
-    @POST("posts")
-    public Call<Opinion> sendPosts(@Body Opinion opinion);
+    @POST("AndroidWebService/")
+    public Call<Animal> sendPosts(@Body Animal animal);
 }

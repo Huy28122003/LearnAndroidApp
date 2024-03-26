@@ -4,12 +4,12 @@
         "source": "C:\\Users\\QuangHuy\\.gradle\\daemon\\8.6\\com.example.readjsonfilefromweb.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\QuangHuy\\.gradle\\daemon\\8.6\\com.example.readjsonfilefromweb.app-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\QuangHuy\\.gradle\\daemon\\8.6\\com.example.readjsonfilefromweb.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\QuangHuy\\.gradle\\daemon\\8.6\\com.example.readjsonfilefromweb.app-debug-31:\\layout_activity_object_list.xml.flat",
         "source": "C:\\Users\\QuangHuy\\.gradle\\daemon\\8.6\\com.example.readjsonfilefromweb.app-main-33:\\layout\\activity_object_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\QuangHuy\\.gradle\\daemon\\8.6\\com.example.readjsonfilefromweb.app-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\QuangHuy\\.gradle\\daemon\\8.6\\com.example.readjsonfilefromweb.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\QuangHuy\\.gradle\\daemon\\8.6\\com.example.readjsonfilefromweb.app-debug-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -66,6 +66,10 @@
     {
         "merged": "C:\\Users\\QuangHuy\\.gradle\\daemon\\8.6\\com.example.readjsonfilefromweb.app-debug-31:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\QuangHuy\\.gradle\\daemon\\8.6\\com.example.readjsonfilefromweb.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\QuangHuy\\.gradle\\daemon\\8.6\\com.example.readjsonfilefromweb.app-debug-31:\\layout_activity_posts.xml.flat",
+        "source": "C:\\Users\\QuangHuy\\.gradle\\daemon\\8.6\\com.example.readjsonfilefromweb.app-main-33:\\layout\\activity_posts.xml"
     },
     {
         "merged": "C:\\Users\\QuangHuy\\.gradle\\daemon\\8.6\\com.example.readjsonfilefromweb.app-debug-31:\\layout_activity_main.xml.flat",

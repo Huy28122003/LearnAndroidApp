@@ -25,10 +25,10 @@ com.example.readjsonfilefromweb.app-startup-runtime-1.1.1-23 C:\Users\QuangHuy\.
 com.example.readjsonfilefromweb.app-recyclerview-1.1.0-24 C:\Users\QuangHuy\.gradle\caches\transforms-4\fa4f5729227a24f24360a7e54d456144\transformed\recyclerview-1.1.0\res
 com.example.readjsonfilefromweb.app-appcompat-resources-1.6.1-25 C:\Users\QuangHuy\.gradle\caches\transforms-4\fb74072d4919a480e642f3b077992175\transformed\appcompat-resources-1.6.1\res
 com.example.readjsonfilefromweb.app-lifecycle-livedata-core-2.6.1-26 C:\Users\QuangHuy\.gradle\caches\transforms-4\fd0a426b4c5ae31a8baa1469d9e98b14\transformed\lifecycle-livedata-core-2.6.1\res
-com.example.readjsonfilefromweb.app-pngs-27 E:\Learning_Android_With_Java\Apps\ReadJsonFileFromWeb\app\build\generated\res\pngs\debug
-com.example.readjsonfilefromweb.app-resValues-28 E:\Learning_Android_With_Java\Apps\ReadJsonFileFromWeb\app\build\generated\res\resValues\debug
-com.example.readjsonfilefromweb.app-packageDebugResources-29 E:\Learning_Android_With_Java\Apps\ReadJsonFileFromWeb\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.readjsonfilefromweb.app-packageDebugResources-30 E:\Learning_Android_With_Java\Apps\ReadJsonFileFromWeb\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.readjsonfilefromweb.app-debug-31 E:\Learning_Android_With_Java\Apps\ReadJsonFileFromWeb\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.example.readjsonfilefromweb.app-debug-32 E:\Learning_Android_With_Java\Apps\ReadJsonFileFromWeb\app\src\debug\res
-com.example.readjsonfilefromweb.app-main-33 E:\Learning_Android_With_Java\Apps\ReadJsonFileFromWeb\app\src\main\res
+com.example.readjsonfilefromweb.app-pngs-27 E:\LearnAndroidApp\ReadJsonFileFromWeb\app\build\generated\res\pngs\debug
+com.example.readjsonfilefromweb.app-resValues-28 E:\LearnAndroidApp\ReadJsonFileFromWeb\app\build\generated\res\resValues\debug
+com.example.readjsonfilefromweb.app-packageDebugResources-29 E:\LearnAndroidApp\ReadJsonFileFromWeb\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.readjsonfilefromweb.app-packageDebugResources-30 E:\LearnAndroidApp\ReadJsonFileFromWeb\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.readjsonfilefromweb.app-debug-31 E:\LearnAndroidApp\ReadJsonFileFromWeb\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.readjsonfilefromweb.app-debug-32 E:\LearnAndroidApp\ReadJsonFileFromWeb\app\src\debug\res
+com.example.readjsonfilefromweb.app-main-33 E:\LearnAndroidApp\ReadJsonFileFromWeb\app\src\main\res

@@ -21,7 +21,7 @@ import retrofit2.Response;
 public class MainActivity extends AppCompatActivity {
 
     TextView txtname,txtcity,txtcountry;
-    Button btnSingle,btnList,btnLink1,btnLink2;;
+    Button btnSingle,btnList,btnLink1,btnLink2, btnSendData;;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         btnList = findViewById(R.id.btnCallApiList);
         btnLink1 = findViewById(R.id.btnRS1);
         btnLink2 = findViewById(R.id.btnRS2);
+        btnSendData = findViewById(R.id.btnSendToWeb);
 
 
 //        user = new User("Huy","Thai Binh","Viet Nam");
@@ -72,6 +73,12 @@ public class MainActivity extends AppCompatActivity {
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse("https://jsonplaceholder.typicode.com/users"));
                 startActivity(intent);
+            }
+        });
+        btnSendData.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, PostsActivity.class));
             }
         });
 

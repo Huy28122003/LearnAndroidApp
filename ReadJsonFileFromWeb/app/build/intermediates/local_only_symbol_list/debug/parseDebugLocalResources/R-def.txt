@@ -4,11 +4,18 @@ color black
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id animalId
+id animalLong
+id animalName
+id ate
 id btnCallApiList
 id btnCallApiSingle
 id btnRS1
 id btnRS2
+id btnSend
+id btnSendToWeb
 id btnWebsite
+id env
 id linearLayout
 id lv
 id main
@@ -20,6 +27,7 @@ id txtPhone
 id txtname
 layout activity_main
 layout activity_object_list
+layout activity_posts
 layout user_item
 mipmap ic_launcher
 mipmap ic_launcher_round

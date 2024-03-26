@@ -3145,6 +3145,9 @@ id aligned
 id all
 id allStates
 id always
+id animalId
+id animalLong
+id animalName
 id animateToEnd
 id animateToStart
 id antiClockwise
@@ -3152,6 +3155,7 @@ id anticipate
 id arc
 id asConfigured
 id async
+id ate
 id auto
 id autoComplete
 id autoCompleteToEnd
@@ -3171,6 +3175,8 @@ id btnCallApiList
 id btnCallApiSingle
 id btnRS1
 id btnRS2
+id btnSend
+id btnSendToWeb
 id btnWebsite
 id buttonPanel
 id cache_measures
@@ -3252,6 +3258,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id env
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3693,6 +3700,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout activity_object_list
+layout activity_posts
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
